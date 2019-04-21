@@ -12,7 +12,7 @@ namespace FluentDBDemo
     {
         public static IDbContext Context()
         {
-            return new DbContext().ConnectionString("Server=a2dev092;Database=FluentDataDB;Integrated Security=False; User ID=sa;Password=Netsolpk1;", new SqlServerProvider());
+            return new DbContext().ConnectionString("Server=SQLSERVER/2014;Database=FluentDataDB;Integrated Security=False; User ID=sa;Password=123;", new SqlServerProvider());
         }
      
     }
